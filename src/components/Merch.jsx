@@ -3,7 +3,7 @@ import Footer from './Footer'
 
 export default function Merch() {
   return (
-    <Footer header={"train like a hero"} title={['Embody the', 'Dark Knight', '    ']}>
+    <Footer header={"train like a hero"} title={['Be a', 'Dark Knight', '    ']}>
         
         <div className='flex flex-col gap-48'>
 
