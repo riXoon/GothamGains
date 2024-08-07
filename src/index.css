@@ -10,18 +10,18 @@
   scroll-behavior: smooth;
 }
 
-spoan {
+span {
   font-family: inherit;
   font-weight: inherit;
 }
 
-.blueShadow {
-  box-shadow: 3px 3px 0 0 #60a5fa;
+.yellowShadow {
+  box-shadow: 3px 3px 0 0  #A79429;
 }
 
-.blueShadow:hover {
+.yellowShadow:hover {
   transform: translate(-3px, -3px);
-  box-shadow: 6px 6px 00 #60a5fa;
+  box-shadow: 6px 6px 00  #A79429;
 }
 
 #workout {

@@ -58,7 +58,7 @@ export default function Generator(props) {
                         <button onClick={() => {
                             setMuscles([])
                             setPoison(type)
-                        }} className={'bg-slate-950 border duration-200 px-4 hover:border-blue-600 py-3 rounded-lg ' + (type === poison ? ' border-blue-600 ' : ' border-slate-950')} key={typeIndex}>
+                        }} className={'bg-slate-950 border duration-200 px-4 hover:border-batman-yellow-100 py-3 rounded-lg ' + (type === poison ? ' border-batman-yellow-100 ' : ' border-slate-950')} key={typeIndex}>
                             <p className='capitalize'>{type.replaceAll('_', " ")}</p>
                         </button>
                     )
@@ -76,7 +76,7 @@ export default function Generator(props) {
                             return (
                                 <button onClick={() => {
                                     updateMuscles(muscleGroup)
-                                }} key={muscleGroupIndex} className={'hover:text-blue-400 duration-200 ' + (muscles.includes(muscleGroup) ? ' text-blue-400' : ' ')}>
+                                }} key={muscleGroupIndex} className={'hover:text-batman-yellow-200 duration-200 ' + (muscles.includes(muscleGroup) ? ' text-batman-yellow-200' : ' ')}>
                                     <p className='uppercase'>{muscleGroup.replaceAll('_', ' ')}</p>
                                 </button>
                             )
@@ -90,7 +90,7 @@ export default function Generator(props) {
                     return (
                         <button onClick={() => {
                             setGoal(scheme)
-                        }} className={'bg-slate-950 border  duration-200 hover:border-blue-600 py-4 rounded-lg ' + (scheme === goal ? ' border-blue-600' : ' border-slate-950')} key={schemeIndex}>
+                        }} className={'bg-slate-950 border  duration-200 hover:border-batman-yellow-100 py-4 rounded-lg ' + (scheme === goal ? ' border-batman-yellow-100' : ' border-slate-950')} key={schemeIndex}>
                             <p className='capitalize'>{scheme.replaceAll('_', " ")}</p>
                         </button>
                     )
