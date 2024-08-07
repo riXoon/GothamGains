@@ -6,7 +6,7 @@ export default function Hero() {
         <div className='min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[800px] w-full mx-auto p-4'>
             <div className='flex flex-col gap-4'>
 
-                <img src="./public/batman-logo.png" className='h-[3rem] w-[6.5rem] max-h-full max-w-full self-center relative bottom-20' />
+                <img src="/batman-logo.png" className='h-[3rem] w-[6.5rem] max-h-full max-w-full self-center relative bottom-20' />
 
                 <p>IT'S TIME TO GET THOSE</p>
                 <h1 className='uppercase font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>gotham<span className='text-batman-yellow-100'>gains</span></h1>
