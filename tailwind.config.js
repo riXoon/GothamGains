@@ -14,7 +14,8 @@ export default {
         'background1' : '#232834',
         'background2' : '#191919',
         'background3' : ' #05181e',
-        
+        'batman1' : '#4A5575',
+        'batman2' : '#7F8A87',
       }
     },
     
