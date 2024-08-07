@@ -27,3 +27,21 @@ span {
 #workout {
   margin-top: 5rem;
 }
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  opacity: 0.3;
+  z-index: -1;
+}

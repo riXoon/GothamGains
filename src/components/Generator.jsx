@@ -50,8 +50,8 @@ export default function Generator(props) {
     }
 
     return (
-        <SectionWrapper id={'generate'} header={"generate your workout"} title={['It\'s', 'Huge', 'o\'clock']}>
-            <Header index={'01'} title={'Pick your poison'} description={"Select the workout you wish to endure."} />
+        <SectionWrapper id={'generate'} header={"generate your gotham workout"} title={['It\'s', 'bat', 'o\'clock']}>
+            <Header index={'01'} title={'Decide your path'} description={"Select the workout you wish to endure."} />
             <div className='grid grid-cols-2 sm:grid-cols-4 gap-4'>
                 {Object.keys(WORKOUTS).map((type, typeIndex) => {
                     return (
@@ -84,7 +84,7 @@ export default function Generator(props) {
                     </div>
                 )}
             </div>
-            <Header index={'03'} title={'Become Juggernaut'} description={"Select your ultimate objective."} />
+            <Header index={'03'} title={'Rise as a Dark Knight'} description={"Select your ultimate objective."} />
             <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
                 {Object.keys(SCHEMES).map((scheme, schemeIndex) => {
                     return (

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Hero from './components/Hero'
 import Generator from './components/Generator'
 import Workout from './components/Workout'
+import Merch from './components/Merch'
 import { generateWorkout } from './utils/functions'
 
 
@@ -22,8 +23,9 @@ function App() {
   }
 
   return (
+    <>
+    <Hero />
     <main className='min-h-screen flex flex-col bg-gradient-to-r from-background1 to-background2 text-white text-sm sm:text-base'>
-      <Hero />
       <Generator
         poison={poison}
         setPoison={setPoison}
@@ -32,9 +34,12 @@ function App() {
         goal={goal}
         setGoal={setGoal}
         updateWorkout={updateWorkout}
-      />
+        />
       {workout && (<Workout workout={workout} />)}
+
+      <Merch />
     </main>
+        </>
   )
 }
 
